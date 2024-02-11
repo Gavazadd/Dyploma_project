@@ -1,0 +1,12 @@
+export const ADMIN_ROUTE = '/admin'
+export const PROFILE_Create_ROUTE = '/profileCreate'
+export const PROFILE_Display_ROUTE = '/profileDisplay'
+export const CREATE_ROUTE = '/modals'
+export const LOGIN_ROUTE = '/login'
+export const ACTIVATE_ROUTE = '/activate'
+export const REGISTRATION_ROUTE = '/registration'
+export const SHOP_ROUTE = '/'
+export const DEVICE_ROUTE = '/device'
+export const USER_DEVICES_ROUTE = '/userDevices'
+export const FAVOURITES_ROUTE = '/favourites'
+
