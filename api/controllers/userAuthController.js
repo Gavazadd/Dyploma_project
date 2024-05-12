@@ -40,8 +40,9 @@ class UserAuthController {
 
   async check (req, res, next) {
     try{
-      const userId = req.user.id
-      const userData = await userService.checking(userId)
+      const userId = req.user?.id
+      let userData
+      if (userId) userData = await userService.checking(userId)
       return res.json(userData)
     }catch (e) {
       next(e)

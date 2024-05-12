@@ -39,7 +39,7 @@ const NavBar = observer(() => {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
-        <NavLink style={{color:'white'}} to={SHOP_ROUTE}>Lubny_Baraholka</NavLink>
+        <NavLink style={{color:'white'}} to={SHOP_ROUTE}>Baraholka</NavLink>
         {user.isAuth ?
           <Nav className="m-lg-1" style={{color: 'white'}}>
             { isUserInfo ?
