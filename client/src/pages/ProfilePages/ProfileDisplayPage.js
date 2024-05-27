@@ -25,7 +25,8 @@ const ProfileDisplayPage = () => {
   useEffect( () => {
     async function fetchData(){
     const image = await fetchUserImg(id)
-    setUserImg(image.img)
+    setUserImg(null)
+    if (image)setUserImg(image.img)
     const data = await fetchUserInfo(id)
     setUserInfo(data)
     }
